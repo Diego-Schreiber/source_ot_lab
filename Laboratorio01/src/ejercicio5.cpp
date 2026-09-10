@@ -1,3 +1,5 @@
+#include "ejercicios.hpp"
+
 #include <iostream>
 using namespace std;
 
@@ -29,7 +31,7 @@ public:
     }
 };
 
-int main() {
+void ejercicio5() {
     string f, h, t;
     int n;
 
@@ -57,5 +59,4 @@ int main() {
     else
         cout << "Cita normal." << endl;
 
-    return 0;
 }
