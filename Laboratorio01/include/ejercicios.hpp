@@ -13,3 +13,22 @@ lo siguiente:
 - Luego, el programa debe ordenar de mayor a menor (utilizar un algoritmo de ordenamiento de su preferencia). 
 */
 void ejercicio1();
+
+
+/*
+* EJERCICIO 5
+* --------------
+Implementa una cita medica usando una clase (class) en vez de estructura.
+- Se define la clase CitaMedica con los atributos fecha, hora, tipoAtencion y
+  numeroAsegurado, todos privados (encapsulados).
+- El constructor recibe esos 4 datos y los asigna directamente al crear el objeto,
+  asi no puede existir una cita sin datos cargados.
+- El metodo mostrar() imprime en consola los datos de la cita ya guardados.
+- El metodo esUrgencia() compara el tipoAtencion contra "Emergencia" y devuelve
+  true o false segun corresponda.
+- En main, se piden los 4 datos por teclado (cin y getline para el tipo de atencion,
+  que puede tener espacios), se crea el objeto CitaMedica pasandole esos datos al
+  constructor, se llama a mostrar() para ver la cita completa, y finalmente se usa
+  esUrgencia() para avisar si es una urgencia o una cita normal.
+*/
+void ejercicio5();
